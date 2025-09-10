@@ -1,9 +1,10 @@
-﻿<Application x:Class="MCSkinViewer.WPF.SampleApp.App"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:MCSkinViewer.WPF.SampleApp"
-             StartupUri="MainWindow.xaml">
+﻿<Application
+    x:Class="MCSkinViewer.WPF.SampleApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:MCSkinViewer.WPF.SampleApp"
+    StartupUri="Mvvm/Views/Windows/MainWindow.xaml">
     <Application.Resources>
-         
+        <!--  Here resources  -->
     </Application.Resources>
 </Application>

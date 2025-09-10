@@ -8,4 +8,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Mvvm\Models\" />
+    <Folder Include="Mvvm\Views\Pages\" />
+  </ItemGroup>
+
 </Project>
