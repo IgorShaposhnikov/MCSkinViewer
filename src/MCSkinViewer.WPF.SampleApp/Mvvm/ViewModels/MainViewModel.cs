@@ -2,6 +2,6 @@
 {
     public sealed class MainViewModel : ViewModelBase
     {
-        public ViewModelBase? CurrentViewModel { get; } = null;
+        public ViewModelBase? CurrentViewModel { get; } = new MinecraftSkinViewerViewModel();
     }
 }

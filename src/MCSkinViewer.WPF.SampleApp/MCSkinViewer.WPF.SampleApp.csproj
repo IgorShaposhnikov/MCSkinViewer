@@ -9,8 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\hel2xSkin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\hel2xSkin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Mvvm\Models\" />
-    <Folder Include="Mvvm\Views\Pages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MCSkinViewer.WPF\MCSkinViewer.WPF.csproj" />
   </ItemGroup>
 
 </Project>
